@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio de Soluções</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-links">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#solucoes">Soluções</a>
+                    <a href="#timeline">Linha do tempo</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="sobre">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-img">
+                    <img src="/assets/img/perfil.png" alt="Foto de Perfil" class="profile-photo">
+                </div>
+                <div class="hero-info">
+                    <h1>Thalyson Luan</h1>
+                    <p>Soluções Tecnológicas</p>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">Excel</span>
+                        <span class="tech-badge">Power Platform</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Business Intelligence</span>
+                        <span class="tech-badge">Automação de processos</span>
+                    </div>
+                    
+                    <p>Sou um profissional focado em transformar tarefas manuais do dia a dia em soluções automatizadas e eficientes, liberando tempo para análises estratégicas e aumento da produtividade. Com vivência prática na área logística, desenvolvo soluções que unem conhecimento técnico, visão de negócios e melhoria de processos. Meu objetivo é atuar como especialista em resoluções e automações tecnológicas, promovendo inovação e eficiência em processos corporativos.</p>
+                    
+                    <div class="contact-info">
+                        <a href="https://www.linkedin.com/in/thalyson-luan-30b934283/" target="_blank"><i class="fab fa-linkedin social-icon"></i></a>
+                        <a href="mailto:itsthalysl@gmail.com"><i class="fas fa-envelope social-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Solutions -->
+    <section class="featured-solutions" id="solucoes">
+        <div class="container">
+            <h2 class="section-title">Soluções Desenvolvidas</h2>
+            
+            <!-- Solution Card Structure -->
+            <div class="solution-card">
+                <div class="solution-card-top">                  
+                  <div class="card-main-content">
+                    <h3 class="solution-title">Transformação Digital no Controle de Estoque com Power Platform</h3>
+                    <div class="solution-date">
+                      <i class="far fa-calendar-alt"></i> Janeiro 2024
+                    </div>
+                    
+                    <div class="solution-info">
+                      <div class="solution-section">
+                        <h4 class="problem-title">Problema</h4>
+                        <p>Em um armazém logístico com 8.800 posições de paletes e uma média diária de movimentação de 600 paletes, a ausência de um sistema eficaz de controle de estoque físico comprometia a acuracidade das informações, aumentava o retrabalho e dificultava a rastreabilidade das movimentações. A operação dependia de anotações manuais, planilhas descentralizadas e conferências demoradas, o que gerava atrasos, erros operacionais, falta de rastreabilidade dos itens armazenados e baixa produtividade no dia a dia do armazém.</p>
+                      </div>
+                      
+                      <div class="solution-section">
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Foi desenvolvida uma solução integrada utilizando a Power Platform, composta por um aplicativo em Power Apps para uso em coletores móveis, permitindo o registro das movimentações em tempo real. Os dados são armazenados no SharePoint e no Excel, garantindo organização e fácil acesso. Com o Power Automate, todo o fluxo de envio e atualização das informações foi automatizado, assegurando consistência, agilidade e rastreabilidade. Essa solução elevou o nível de controle operacional, aumentou a acuracidade do estoque, garantiu a rastreabilidade na armazenagem, reduziu erros e promoveu autonomia digital à equipe, tudo com ferramentas acessíveis e de rápida implementação.</p>
+                      </div>
+                    </div>
+                    
+                    <!-- Movido para dentro do card-main-content -->
+                    <div class="tech-section">
+                      <h4>Tecnologias Utilizadas</h4>
+                      <div class="solution-tech">
+                        <span class="tech-badge">Power Apps</span>
+                        <span class="tech-badge">Power Automate</span>
+                        <span class="tech-badge">Sharepoint</span>
+                        <span class="tech-badge">Excel</span>
+                        <span class="tech-badge">Power Query</span>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="card-slider swiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app1.png" alt="Automate">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app2.png" alt="Power Apps">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app3.png" alt="Excel">
+                        </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+              </div>
+            
+            <!-- Solution 2 -->
+            <div class="solution-card">
+                <div class="solution-card-top">                  
+                  <div class="card-main-content">
+                    <h3 class="solution-title">Automatização do Fluxo de Aprovação de Valores de Descarrego com Power Platform</h3>
+                    <div class="solution-date">
+                      <i class="far fa-calendar-alt"></i> Janeiro 2025
+                    </div>
+                    
+                    <div class="solution-info">
+                      <div class="solution-section">
+                        <h4 class="problem-title">Problema</h4>
+                        <p>O processo de aprovação dos valores de descarrego de mercadorias nos clientes, com média de 20 a 30 aprovações diárias, enfrentava desafios significativos: ausência de compilação centralizada dos dados, aprovações realizadas de forma dispersa e falta de rastreabilidade do lançamento dos custos aprovados pelas transportadoras. Essa falta de controle comprometia a transparência, gerava retrabalho e dificultava o acompanhamento da operação e dos valores acordados.</p>
+                      </div>
+                      
+                      <div class="solution-section">
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Foi criada uma solução automatizada com a Power Platform, iniciando com um Microsoft Forms direcionado aos transportadores, que preenchem informações padronizadas sobre o descarrego. Esses dados são processados por um fluxo no Power Automate, que aciona uma aprovação diretamente via Microsoft Teams, permitindo resposta rápida dos aprovadores. A resposta é encaminhada automaticamente por e-mail (Outlook) à transportadora, garantindo comunicação eficaz e imediata. Todas as informações são armazenadas em uma planilha Excel centralizada, possibilitando controle, histórico e auditoria. A solução trouxe padronização, agilidade, rastreabilidade e redução de falhas no processo de aprovação de custos logísticos.</p>
+                      </div>
+                    </div>
+                    
+                    <!-- Movido para dentro do card-main-content -->
+                    <div class="tech-section">
+                      <h4>Tecnologias Utilizadas</h4>
+                      <div class="solution-tech">
+                        <span class="tech-badge">Power Automate</span>
+                        <span class="tech-badge">Microsoft Forms</span>
+                        <span class="tech-badge">Microsoft Teams</span>
+                        <span class="tech-badge">Excel</span>
+                        <span class="tech-badge">Power Query</span>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="card-slider swiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app4.png" alt="Teams">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app5.png" alt="Outlook">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app6.png" alt="Forms">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app7.png" alt="Automate">
+                        </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+              </div>
+            
+            <!-- Solution 3 -->
+            <div class="solution-card">
+                <div class="solution-card-top">                  
+                  <div class="card-main-content">
+                    <h3 class="solution-title">Digitalização e Automação do Confronto de Cargas na Expedição e Recebimento</h3>
+                    <div class="solution-date">
+                      <i class="far fa-calendar-alt"></i> Agosto 2022
+                    </div>
+                    
+                    <div class="solution-info">
+                      <div class="solution-section">
+                        <h4 class="problem-title">Problema</h4>
+                        <p>O processo de conferência das cargas antes da expedição e recebimento era realizado manualmente, linha por linha, em listas impressas, consumindo de 20 a 30 minutos por carga. Com uma média de 30 cargas por turno, isso exigia dedicação exclusiva de um colaborador, com alto risco de erros operacionais, retrabalho e perda de produtividade. A ausência de digitalização comprometia a agilidade e a precisão do processo, impactando diretamente a eficiência logística.</p>
+                      </div>
+                      
+                      <div class="solution-section">
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Foi desenvolvida uma solução offline, iniciando com um aplicativo em Power Apps para digitalização da conferência das cargas em tempo real. Inicialmente, os dados eram confrontados via Excel, mas a solução evoluiu para um software desktop em Python, garantindo acesso rápido e seguro aos dados das cargas. O arquivo de dados é criptografado e somente o software possui a chave para descriptografar, aumentando a segurança da informação. Com isso, eliminou-se a conferência manual, reduzindo drasticamente o tempo por carga, aumentando a confiabilidade dos dados e liberando o colaborador para atividades mais estratégicas.</p>
+                      </div>
+                    </div>
+                    
+                    <!-- Movido para dentro do card-main-content -->
+                    <div class="tech-section">
+                      <h4>Tecnologias Utilizadas</h4>
+                      <div class="solution-tech">
+                        <span class="tech-badge">Power Apps</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Excel</span>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="card-slider swiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app8.png" alt="Python">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app9.png" alt="Power Apps">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/app/app10.png" alt="PDF">
+                        </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- More Solutions -->
+    <section class="more-solutions">
+        <div class="container">
+            <h2 class="section-title">Outras Soluções</h2>
+            
+            <div class="solutions-grid">
+                <!-- Mini Solution 1 -->
+                <div class="solution-mini" data-id="1">
+                    <img src="/assets/app/app12.png" alt="Digitalização do Inventário Físico com Power Apps" class="mini-img">
+                    <div class="mini-content">
+                        <h3 class="mini-title">Digitalização do Inventário Físico com Power Apps</h3>
+                        <div class="mini-date">
+                            <i class="far fa-calendar-alt"></i> Janeiro 2021
+                        </div>
+                        <h4 class="problem-title">Problema</h4>
+                        <p data-description="Implementei mecanismos para evitar o envio de informações duplicadas, desenvolvi uma calculadora integrada à tela para facilitar os cálculos, criei um código VBA capaz de transformar os dados fornecidos em formato JSON e entreguei uma solução totalmente offline, adequada para execução direta no coletor.">Inventário físico era feito em papel e digitado por 4 pessoas, consumindo até 30 horas com alto risco de erro.</p>
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Aplicativo em Power Apps permitiu contagem digital, reduziu o tempo para 12 horas e eliminou erros por digitação manual.</p>
+                        <div class="mini-tech">
+                            <span>Power Apps</span>
+                            <span>Excel</span>
+                            <span>VBA</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Solution 2 -->
+                <div class="solution-mini" data-id="2">
+                    <img src="/assets/app/app13.png" alt="Digitalização de controle de mercadorias avariadas" class="mini-img">
+                    <div class="mini-content">
+                        <h3 class="mini-title">Digitalização de controle de mercadorias avariadas</h3>
+                        <div class="mini-date">
+                            <i class="far fa-calendar-alt"></i> Abril 2025
+                        </div>
+                        <h4 class="problem-title">Problema</h4>
+                        <p data-description="Implementei operações matemáticas integradas com atualização automática na tela, desenvolvi um fluxo de liberações para garantir o preenchimento correto das informações e configurei a leitura de código de barras com o coletor, ativando ações automaticamente a cada leitura.">O controle de avarias era feito manualmente, gerando retrabalho com digitação, perda de produtividade e inconsistência nos dados coletados.</p>
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Aplicativo em Power Apps digitalizou o processo, padronizou os dados, permitiu automações e reduziu tempo e erros nas conferências.</p>
+                        <div class="mini-tech">
+                            <span>Power Apps</span>
+                            <span>VBA</span>
+                            <span>Excel</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Solution 3 -->
+                <div class="solution-mini" data-id="3">
+                    <img src="/assets/app/app11.png" alt="Fluxo de entrada e saída de paletes com Power Apps" class="mini-img">
+                    <div class="mini-content">
+                        <h3 class="mini-title">Fluxo de entrada e saída de paletes com Power Apps</h3>
+                        <div class="mini-date">
+                            <i class="far fa-calendar-alt"></i> Janeiro 2023
+                        </div>
+                        <h4 class="problem-title">Problema</h4>
+                        <p data-description="Implementei o registro de execuções com data e login, desenvolvi um fluxo dividido por etapas com liberação sequencial, criei uma tela de fácil compreensão e integrei a API de CNPJ para preenchimento automático de dados.">Preenchimento descentralizada por vários setores responsáveis pelo fluxo da saída e entrada dos paletes.</p>
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Solução criada no Power Apps com fluxo de ponta a ponta desde a saída até a entrada dos paletes novamente em estoque.</p>
+                        <div class="mini-tech">
+                            <span>Power Apps</span>
+                            <span>Sharepoint</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Solution 4 -->
+                <div class="solution-mini" data-id="4">
+                    <img src="/assets/app/app14.png" alt="Controle vencimento da dedetizações de veículos com Power Apps" class="mini-img">
+                    <div class="mini-content">
+                        <h3 class="mini-title">Controle vencimento da dedetizações de veículos com Power Apps</h3>
+                        <div class="mini-date">
+                            <i class="far fa-calendar-alt"></i> Janeiro 2023
+                        </div>
+                        <h4 class="problem-title">Problema</h4>
+                        <p data-description="Implantei um visualizador de PDF integrado ao sistema e adicionei sinalizações em cores distintas para indicar o tempo restante até o vencimento, facilitando o acompanhamento pelo usuário.">Os documentos de dedetização eram físicos e descentralizados, dificultando o acesso, controle de vencimentos e rastreabilidade por parte dos envolvidos.</p>
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Power Apps com SharePoint List centralizou documentos digitalmente, armazenando anexos, históricos e alertando sobre vencimentos para facilitar a gestão e acesso.</p>
+                        <div class="mini-tech">
+                            <span>Power Apps</span>
+                            <span>Sharepoint</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Solution 5 -->
+                <div class="solution-mini" data-id="4">
+                    <img src="/assets/app/app15.png" alt="Dashboard de Abastecimento da Frota no Looker Studio" class="mini-img">
+                    <div class="mini-content">
+                        <h3 class="mini-title">Dashboard de Abastecimento da Frota no Looker Studio</h3>
+                        <div class="mini-date">
+                            <i class="far fa-calendar-alt"></i> Fevereiro 2025
+                        </div>
+                        <h4 class="problem-title">Problema</h4>
+                        <p data-description="Implementei o cálculo da média de KM por litro e do custo por litro (R$/L), além de adicionar a comparação do valor abastecido com os preços praticados no mercado atual.">Não havia visualização clara dos dados de abastecimento da frota, dificultando a análise e o acompanhamento gerencial efetivo.</p>
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Dashboard no Looker Studio permite análises por motorista e veículo, facilitando comparações, desvios e tratativas com base em PDCA.</p>
+                        <div class="mini-tech">
+                            <span>Looker Studio</span>
+                            <span>Google Sheets</span>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- Mini Solution 6 -->
+                <div class="solution-mini" data-id="4">
+                    <img src="/assets/app/app16.png" alt="Dashboard Ocupação do Armazém no Looker Studio" class="mini-img">
+                    <div class="mini-content">
+                        <h3 class="mini-title">Dashboard Ocupação do Armazém no Looker Studio</h3>
+                        <div class="mini-date">
+                            <i class="far fa-calendar-alt"></i> Fevereiro 2025
+                        </div>
+                        <h4 class="problem-title">Problema</h4>
+                        <p data-description="Realizei a tratativa e padronização dos dados para garantir consistência nas informações e implementei cálculos de porcentagens para facilitar a análise dos resultados.">Não havia visibilidade clara da ocupação das posições, dificultando decisões sobre agendamentos de recebimento e realocação em caso de lotação.</p>
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Dashboard criado permite visualizar ocupação em tempo real, facilitando a gestão na tomada de decisões e prevenindo sobrecarga do armazém.</p>
+                        <div class="mini-tech">
+                            <span>Looker Studio</span>
+                            <span>Google Sheets</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mini Solution 7 -->
+                <div class="solution-mini" data-id="4">
+                    <img src="/assets/app/app17.png" alt="Dashboard Telemetria de Máquinas no Looker Studio" class="mini-img">
+                    <div class="mini-content">
+                        <h3 class="mini-title">Dashboard Telemetria de Máquinas no Looker Studio</h3>
+                        <div class="mini-date">
+                            <i class="far fa-calendar-alt"></i> Janeiro 2023
+                        </div>
+                        <h4 class="problem-title">Problema</h4>
+                        <p data-description="Implementei cálculos com base em horas para permitir o controle preciso de tempo nas operações.">Faltava análise visual da performance das transpaleteiras, dificultando o acompanhamento de utilização, ociosidade e desempenho dos operadores.</p>
+                        <h4 class="problem-title">Solução</h4>
+                        <p>Dashboard permite análise por operador e máquina, destacando tempo ocioso, uso por turno e ranking dos melhores e piores desempenhos.</p>
+                        <div class="mini-tech">
+                            <span>Looker Studio</span>
+                            <span>Google Sheets</span>
+                        </div>
+                    </div>
+                </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline-section" id="timeline">
+      <div class="container">
+          <h2 class="section-title">Trajetória Profissional</h2>
+          
+          <div class="timeline-container">
+
+            <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Assistente Logístico Sênior</h3>
+                    <p class="timeline-text">Suporte à gestão com foco na operação do armazém, garantindo a execução dos processos e orientando a equipe nas rotinas de estoque. Atuação na identificação e resolução de falhas operacionais, com aplicação de automações e análise de KPIs para prevenir retrabalho e perdas. Responsável pelo inventário físico mensal, assegurando precisão e controle.</p>
+                    <div class="timeline-tools">
+                        <h4>Ferramentas utilizadas:</h4>
+                        <div class="tools-container">
+                            <span class="tool-tag">ERP (SAP)</span>
+                            <span class="tool-tag">Excel</span>
+                            <span class="tool-tag">VBA</span>
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Power Platform</span>
+                            <span class="tool-tag">Metodologias de Análise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Timeline Item 1 -->
+              <div class="timeline-item">
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Assistente Logístico Sênior</h3>
+                    <p class="timeline-text">Suporte à gestão com foco em melhoria contínua, por meio da análise de KPIs, aplicação do PDCA e automação de processos. Acompanhamento das rotinas internas visando a excelência logística. Responsável pelo inventário físico mensal, assegurando acuracidade e eficiência..</p>
+                    <div class="timeline-tools">
+                        <h4>Ferramentas utilizadas:</h4>
+                        <div class="tools-container">
+                            <span class="tool-tag">ERP (EBS)</span>
+                            <span class="tool-tag">Excel</span>
+                            <span class="tool-tag">VBA</span>
+                            <span class="tool-tag">Power Platform</span>
+                            <span class="tool-tag">Metodologias de Análise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+              <!-- Timeline Item 2 -->
+              <div class="timeline-item">
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Assistente Logístico Pleno</h3>
+                    <p class="timeline-text">Liderança na reabertura de armazém de 8.000m², com atuação estratégica no planejamento de armazenagem, realocação de itens, definição de ambientes e estruturação de processos logísticos. Suporte à gestão por meio de análises de KPIs e aplicação do PDCA. Responsável pelo inventário físico mensal, garantindo acuracidade e eficiência operacional.</p>
+                    <div class="timeline-tools">
+                        <h4>Ferramentas utilizadas:</h4>
+                        <div class="tools-container">
+                            <span class="tool-tag">ERP (EBS)</span>
+                            <span class="tool-tag">Excel</span>
+                            <span class="tool-tag">Power BI</span>
+                            <span class="tool-tag">VBA</span>
+                            <span class="tool-tag">Power Platform</span>
+                            <span class="tool-tag">Metodologias de Análise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Assistente Logístico Pleno</h3>
+                        <p class="timeline-text">Controle de estoque, inventário físico mensal, aplicação do FEFO e gestão de avarias com foco em acuracidade e redução de perdas.</p>
+                        <div class="timeline-tools">
+                            <h4>Ferramentas utilizadas:</h4>
+                            <div class="tools-container">
+                                <span class="tool-tag">ERP (EBS)</span>
+                                <span class="tool-tag">Excel</span>
+                                <span class="tool-tag">TMS (OTM)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2017</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Auxiliar Administrativo</h3>
+                        <p class="timeline-text">Foco em faturamento, controle de documentos e apoio nos processos de roteirização, contratação e expedição.</p>
+                        <div class="timeline-tools">
+                            <h4>Ferramentas utilizadas:</h4>
+                            <div class="tools-container">
+                                <span class="tool-tag">ERP (EBS)</span>
+                                <span class="tool-tag">DANFE</span>
+                                <span class="tool-tag">ROADNET</span>
+                                <span class="tool-tag">TMS (OTM)</span>
+                                <span class="tool-tag">GKO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          
+          <div class="experience-timeline">
+              <h2 class="section-title">Formação e Certificações</h2>
+              
+              <div class="timeline-container">
+                  <div class="timeline-item">
+                      <div class="timeline-date">2025</div>
+                      <div class="timeline-content">
+                          <h3 class="timeline-title">Gestão de projetos</h3>
+                          <p class="timeline-text">Pós-formação em Gestão de Projetos, com foco em metodologias ágeis, gestão de escopo, riscos, cronograma e stakeholders, alinhada a práticas de PMO e portfólio de projetos.</p>
+                      </div>
+                  </div>
+                  
+                  <div class="timeline-item">
+                      <div class="timeline-date">2024</div>
+                      <div class="timeline-content">
+                          <h3 class="timeline-title">Análise e Desenvolvimento de Sistemas</h3>
+                          <p class="timeline-text">Formação em Análise e Desenvolvimento de Sistemas, com base teórica em gerenciamento de projetos, usabilidade, automação e modelagem de processos, aplicáveis à melhoria contínua e eficiência operacional.</p>
+                      </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Curso de Automação de Processos com Power Platform</h3>
+                        <p class="timeline-text">Curso de Automação de Processos com Power Platform, com foco na utilização prática de ferramentas como Power Automate, Power Apps e Power BI para automatizar rotinas operacionais e aumentar a eficiência. Desenvolvimento e apresentação de uma solução prática aplicando os conceitos aprendidos.</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Modal for Solution Details -->
+  <div id="solutionModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="modalContent"></div>
+      </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contato">
+      <div class="container">
+          <div class="footer-content">              
+              <div class="footer-social">
+                  <a href="https://www.linkedin.com/in/thalyson-luan-30b934283/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="mailto:itsthalysl@gmail.com"><i class="fas fa-envelope"></i></a>
+              </div>
+              
+              <div class="footer-credits">
+                  &copy; Site produzido com auxílio de IA.
+              </div>
+          </div>
+      </div>
+  </footer>
+
+      <!-- Image Modal -->
+  <div id="imageModal" class="image-modal">
+    <span class="image-modal-close">&times;</span>
+    <img class="image-modal-content" id="modalImage">
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</html>
